@@ -71,6 +71,7 @@ scale=1.0">
 
 
             <tr>
+                  
                   <td>Agama</td>
                   <td>:</td?>
                   <td>

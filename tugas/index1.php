@@ -58,36 +58,36 @@ scale=1.0">
                   <p>
                         Pilih Jurusan 1 : <select id="Pil Jurusan 1" name="PilJurusan1">
                               <option value="TIDAK MEMILIH">TIDAK MEMILIH</option>
-                              <option value="PENGEMBANGAN PERANGKAT LUNAK & GIM">PENGEMBANGAN PERANGKAT LUNAK & GIM
+                              <option value="pplg">PENGEMBANGAN PERANGKAT LUNAK & GIM
                               </option>
-                              <option value="TEKNIK JARINGAN KOMPUTER & TELEKOMUNIKASI">TEKNIK JARINGAN KOMPUTER &
+                              <option value="tjkt">TEKNIK JARINGAN KOMPUTER &
                                     TELEKOMUNIKASI</option>
-                              <option value="DESAIN KOMUNIKASI VISUAL">DESAIN KOMUNIKASI VISUAL</option>
-                              <option value="SENI TARI">SENI TARI</option>
-                              <option value="AKUNTANSI KEUANGAN LEMBAGA">AKUNTANSI KEUANGAN LEMBAGA</option>
-                              <option value="MANAJEMEN PERKANTORAN & LAYANAN BISNIS">MANAJEMEN PERKANTORAN & LAYANAN
+                              <option value="dkv">DESAIN KOMUNIKASI VISUAL</option>
+                              <option value="sp">SENI PERTUNJUKAN</option>
+                              <option value="akl">AKUNTANSI KEUANGAN LEMBAGA</option>
+                              <option value="mplb">MANAJEMEN PERKANTORAN & LAYANAN
                                     BISNIS</option>
-                              <option value="PERHOTELAN">PERHOTELAN</option>
-                              <option value="PEMASARAN">PEMASARAN</option>
-                              <option value="BROADCASTING & PERFILMAN">BROADCASTING & PERFILMAN</option>
+                              <option value="ph">PERHOTELAN</option>
+                              <option value="pm">PEMASARAN</option>
+                              <option value="bdp">BROADCASTING & PERFILMAN</option>
                         </select>
                   </p>
                   <p>
 
                         Pilih Jurusan 2 : <select id="Pil Jurusan 2" name="PilJurusan2">
                               <option value="TIDAK MEMILIH">TIDAK MEMILIH</option>
-                              <option value="PENGEMBANGAN PERANGKAT LUNAK & GIM">PENGEMBANGAN PERANGKAT LUNAK & GIM
+                              <option value="pplg">PENGEMBANGAN PERANGKAT LUNAK & GIM
                               </option>
-                              <option value="TEKNIK JARINGAN KOMPUTER & TELEKOMUNIKASI">TEKNIK JARINGAN KOMPUTER &
+                              <option value="tjkt">TEKNIK JARINGAN KOMPUTER &
                                     TELEKOMUNIKASI</option>
-                              <option value="DESAIN KOMUNIKASI VISUAL">DESAIN KOMUNIKASI VISUAL</option>
-                              <option value="SENI TARI">SENI TARI</option>
-                              <option value="AKUNTANSI KEUANGAN LEMBAGA">AKUNTANSI KEUANGAN LEMBAGA</option>
-                              <option value="MANAJEMEN PERKANTORAN & LAYANAN BISNIS">MANAJEMEN PERKANTORAN & LAYANAN
+                              <option value="dkv">DESAIN KOMUNIKASI VISUAL</option>
+                              <option value="sp">SENI PERTUNJUKAN</option>
+                              <option value="akl">AKUNTANSI KEUANGAN LEMBAGA</option>
+                              <option value="mplb">MANAJEMEN PERKANTORAN & LAYANAN
                                     BISNIS</option>
-                              <option value="PERHOTELAN">PERHOTELAN</option>
-                              <option value="PEMASARAN">PEMASARAN</option>
-                              <option value="BROADCASTING & PERFILMAN">BROADCASTING & PERFILMAN</option>
+                              <option value="ph">PERHOTELAN</option>
+                              <option value="pm">PEMASARAN</option>
+                              <option value="bdp">BROADCASTING & PERFILMAN</option>
                         </select>
                   </p>
                   <p>
