@@ -31,7 +31,7 @@
 
 
             <tr>
-                <td>Nama Karayawan</td>
+                <td>Nama Karyawan</td>
                 <td>:</td>
                 <td>
 
@@ -41,7 +41,7 @@
             </tr>
 
             <tr>
-                <td>Divisi</td>
+                <td>Divisi/Jabatan</td>
                 <td>:</td>
                 <td>
 
@@ -64,16 +64,8 @@
                 <td>Apakah Anda Memiliki NPWP?</td>
                 <td>:</td>
                 <td>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">PUNYA
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2">TIDAK PUNYA 
-                        </label>
-                    </div>
+                        <input type="radio" name="npwp" value="npwp">Punya
+                        <input type="radio" name="npwp" value="npwp">Tidak punya
                 </td>
             </tr>
 
@@ -86,7 +78,8 @@
         </tr>  
         
         
-
+    
+</table>
     </from>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -17,19 +17,22 @@ scale=1.0">
                         <h1>Formulir Peserta </h1>
                   </legend>
                   <p>Silahkan isi data berikut :</p>
-                  NIS : <input type="number" name="NIS">
+                  <tr>
+                 <td> NIS </td> 
+                 <td>: </td> 
+                 <td><input type="number" class="form-control"  name="NIS">
+                  </td>
+                  </tr>
+
+                        Nama Lengkap : <input type="text" class="form-control"  name="Nama">
                   </p>
                   <p>
 
-                        Nama Lengkap : <input type="text" name="Nama">
+                        Tempat Lahir : <input type="text" class="form-control"  name="TempatLahir">
                   </p>
                   <p>
 
-                        Tempat Lahir : <input type="text" name="TempatLahir">
-                  </p>
-                  <p>
-
-                        Tanggal Lahir : <input type="date" name="TanggalLahir">
+                        Tanggal Lahir : <input type="date" class="form-control"  name="TanggalLahir">
                   </p>
                   <p>
                         Jenis Kelamin :
@@ -53,7 +56,7 @@ scale=1.0">
                   <textarea name="Alamat" id="Alamat" cols="30" rows="10"></textarea>
                   </p>
                   <p>
-                        Asal Sekolah : <input type="text" name="AsalSekolah">
+                        Asal Sekolah : <input type="text" class="form-control"  name="AsalSekolah">
                   </p>
                   <p>
                         Pilih Jurusan 1 : <select id="Pil Jurusan 1" name="PilJurusan1">

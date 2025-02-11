@@ -13,7 +13,7 @@ scale=1.0">
 <body>
       <?php
 
-// if(isset($_POST['datasiswa']))
+ if(isset($_POST['datasiswa']))
 
      ?>
       <tr>
@@ -23,8 +23,7 @@ scale=1.0">
                   <?= $_POST['NIS']; ?>
             </td>
       </tr>
-      </p>
-      <p>
+
 
             <tr>
                   <td>NAMA LENGKAP</td>
@@ -33,8 +32,7 @@ scale=1.0">
                         <?= $_POST['Nama']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
+    
 
             <tr>
                   <td>Tempat Lahir</td>
@@ -43,8 +41,7 @@ scale=1.0">
                         <?= $_POST['TempatLahir']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
+      
 
 
             <tr>
@@ -54,8 +51,7 @@ scale=1.0">
                         <?= $_POST['TanggalLahir']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
+     
 
 
             <tr>
@@ -65,10 +61,7 @@ scale=1.0">
                         <?= $_POST['jenkel']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
-
-
+   
 
             <tr>
                   
@@ -78,9 +71,7 @@ scale=1.0">
                         <?= $_POST['agama']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
-
+     
 
             <tr>
                   <td>ALAMAT</td>
@@ -89,9 +80,7 @@ scale=1.0">
                         <?= $_POST['Alamat']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
-
+     
 
             <tr>
                   <td>Asal Sekolah</td>
@@ -100,8 +89,7 @@ scale=1.0">
                         <?= $_POST['AsalSekolah']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
+      
 
 
             <tr>
@@ -111,8 +99,7 @@ scale=1.0">
                         <?= $_POST['PilJurusan1']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
+     
 
             <tr>
                   <td>Pilih Jurusan 2</td>
@@ -121,9 +108,7 @@ scale=1.0">
                         <?= $_POST['PilJurusan2']; ?>
                   </td>
             </tr>
-      </p>
-      <p>
-
+     
             <tr>
                   <td>Ekstrakulikuler</td>
                   <td>:</td?>
@@ -131,11 +116,9 @@ scale=1.0">
                         <?= implode(", ", $_POST['ekskul']); ?>
                   </td>
             </tr>
-      </p>
-      <p>
+     
 
-
-
+     
 </body>
 
 </html>

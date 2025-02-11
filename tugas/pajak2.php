@@ -26,7 +26,16 @@
 
 
 <body>
-    <form action="pajak2.php" method="POST">
+
+
+
+    <form>
+    <?php
+
+if(isset($_POST['pajak']))
+// rumus
+ 
+?>
         <table border=1 style="border-colaapse : collapse : width : 50%">
 
 
@@ -34,18 +43,17 @@
                 <td>Nama Karayawan</td>
                 <td>:</td>
                 <td>
-
-                    <input type="teks" class="form-control" name="nama">
-
+                <?= $_POST['nama']; ?>
+                    
                 </td>
             </tr>
 
             <tr>
-                <td>Divisi</td>
+                <td>Divisi/Jabatan</td>
                 <td>:</td>
                 <td>
 
-                    <input type="teks" class="form-control" name="divisi">
+                    <?= $_POST['divisi']; ?>
 
                 </td>
             </tr>
@@ -54,26 +62,17 @@
                 <td>Gaji</td>
                 <td>:</td>
                 <td>
-
-                    <input type="number" class="form-control" name="gaji">
-
+                <?= $_POST['gaji']; ?>
+                    
                 </td>
             </tr>
 
             <tr>
-                <td>Apakah Anda Memiliki NPWP?</td>
+                <td>NPWP</td>
                 <td>:</td>
                 <td>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">PUNYA
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2">TIDAK PUNYA 
-                        </label>
-                    </div>
+                <?= $_POST['npwp']; ?>
+                
                 </td>
             </tr>
 
@@ -86,8 +85,9 @@
         </tr>  
         
         
-
+</table>
     </from>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
