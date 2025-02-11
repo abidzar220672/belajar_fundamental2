@@ -11,7 +11,7 @@ scale=1.0">
 </head>
 
 <body>
-      <form action="../proses.php" method="POST">
+      <form action="proses.php" method="POST">
             <fieldset>
                   <legend>
                         <h1>Formulir Peserta </h1>
