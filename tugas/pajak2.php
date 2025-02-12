@@ -30,17 +30,33 @@
 
 
     <form>
-    <?php
+    <?php if (isset($_POST['submit'])) {
+        
+            $gajiBulanan = floatval($_POST['gaji']);
+            $npwp = $_POST['npwp'];
+            $gajiTahunan = $gajiBulanan * 12;
 
-if(isset($_POST['pajak']))
-// rumus
- 
-?>
+            if ($gajiTahunan > 54000000) {
+                if ($npwp == 'ya') {
+                    $potonganPajak = $gajiTahunan * 0.15;
+                    $pajak = 0;
+                }else {
+                    $potonganPajak = $gajiTahunan * 0.20;
+                    $pajak = 0;
+                }
+            }else{
+                $potonganPajak = 0;
+            }
+            $gajiBersihBulanan = ($gajiTahunan - $potonganPajak) /12;
+            $potonganPajakBulanan = $potonganPajak /12;
+            $gajiKotorBulanan = $gajiTahunan /12;
+        } ?>
+
         <table border=1 style="border-colaapse : collapse : width : 50%">
 
 
             <tr>
-                <td>Nama Karayawan</td>
+                <td>Nama Karyawan</td>
                 <td>:</td>
                 <td>
                 <?= $_POST['nama']; ?>
@@ -59,7 +75,7 @@ if(isset($_POST['pajak']))
             </tr>
 
             <tr>
-                <td>Gaji</td>
+                <td>Gaji Perbulan</td>
                 <td>:</td>
                 <td>
                 <?= $_POST['gaji']; ?>
@@ -77,12 +93,35 @@ if(isset($_POST['pajak']))
             </tr>
 
             <tr>
-                <td></td>
-                <td></td>
-                <td class="tombol">
-                <button type="submit" name="pajak"> Submit </button>
-        </td>
-        </tr>  
+                <td>Gaji Kotor Pertahunnya</td>
+                <td>:</td>
+                <td>
+                <?= number_format($gajiTahunan,0,',','.' ) ?>
+                
+                </td>
+            </tr>
+
+            <tr>
+                <td>Potongan Pajak Perbulannya</td>
+                <td>:</td>
+                <td>
+                <?= number_format($potonganPajakBulanan,0,',','.' ) ?>
+                
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Gaji Bersih Perbulannya</td>
+                <td>:</td>
+                <td>
+                <?= number_format($gajiBersihBulanan,0,',','.' ) ?>
+                
+                </td>
+            </tr>
+            
+
+            
         
         
 </table>

@@ -23,10 +23,11 @@
 
 </style>
 
-
+<div class="" ></div>
 
 <body>
     <form action="pajak2.php" method="POST">
+        
         <table border=1 style="border-colaapse : collapse : width : 50%">
 
 
@@ -51,7 +52,7 @@
             </tr>
 
             <tr>
-                <td>Gaji</td>
+                <td>Gaji Perbulan</td>
                 <td>:</td>
                 <td>
 
@@ -64,16 +65,15 @@
                 <td>Apakah Anda Memiliki NPWP?</td>
                 <td>:</td>
                 <td>
-                        <input type="radio" name="npwp" value="npwp">Punya
-                        <input type="radio" name="npwp" value="npwp">Tidak punya
+                        <input type="radio" name="npwp" value="ya">Punya
+                        <input type="radio" name="npwp" value="gak:)">Tidak punya
                 </td>
             </tr>
 
             <tr>
-                <td></td>
-                <td></td>
-                <td class="tombol">
-                <button type="submit" name="pajak"> Submit </button>
+                
+                <td>
+                <button type="submit" name="submit"> Submit </button>
         </td>
         </tr>  
         
